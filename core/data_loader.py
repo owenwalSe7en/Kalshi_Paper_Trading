@@ -1,16 +1,4 @@
-"""Fetch closed Kalshi markets for chosen themes and save to SQLite.
-
-This module expects sandbox credentials to be provided via environment
-variables (a ``.env`` file works nicely with ``python-dotenv``)::
-
-    KALSHI_EMAIL=<you@example.com>
-    KALSHI_PASSWORD=<yourPassword>
-
-These values are required so the ``kalshi_python`` client can authenticate
-against the API. Kalshi does not issue API tokens; the email/password pair
-is all that is needed. By default the client connects to the public sandbox
-endpoint ``https://demo-api.kalshi.com/trade-api/v2``.
-"""
+ main
 import os
 import sqlite3
 import datetime as dt
