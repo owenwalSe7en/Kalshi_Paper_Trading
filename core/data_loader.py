@@ -1,4 +1,4 @@
-"""Fetch closed Kalshi markets for chosen themes and save to SQLite."""
+ main
 import os
 import sqlite3
 import datetime as dt
